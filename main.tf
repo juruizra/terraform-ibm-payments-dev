@@ -1,7 +1,7 @@
 # ── Networking (private module) ───────────────────────────────────────────────
 
 module "vpc" {
-  source = "github.com/juruizra/terraform-ibm-vpc-standard?ref=1.0.0"
+  source = "github.com/juruizra/terraform-ibm-vpc-standard?ref=v1.0.0"
 
   name   = var.name
   region = var.region
