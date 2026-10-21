@@ -1,7 +1,7 @@
 # ── Networking (private module) ───────────────────────────────────────────────
 
 module "vpc" {
-  source  = "app.terraform.io/comoquiera/vpc-standard/IBM"
+  source  = "app.terraform.io/comoquiera/vpc-standard/ibm"
   version = "1.0.0"
 
   name   = var.name
