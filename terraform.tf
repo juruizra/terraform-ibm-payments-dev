@@ -9,7 +9,7 @@ terraform {
   }
 
   cloud {
-    organization = "juruizra-demo"
+    organization = "comoquiera"
     workspaces {
       name = "payments-dev"
     }
